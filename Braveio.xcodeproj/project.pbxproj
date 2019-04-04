@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496BC9D99774EDE0A8BC8B83 /* Pods_Braveio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117ED0E9BC0CB57A4D5EE40 /* Pods_Braveio.framework */; };
+		BBACFFB32223848C004BD3FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACFFB22223848C004BD3FA /* AppDelegate.swift */; };
+		BBACFFB52223848C004BD3FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACFFB42223848C004BD3FA /* ViewController.swift */; };
+		BBACFFB82223848C004BD3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBACFFB62223848C004BD3FA /* Main.storyboard */; };
+		BBACFFBA2223848C004BD3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBACFFB92223848C004BD3FA /* Assets.xcassets */; };
+		BBACFFBD2223848C004BD3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBACFFBB2223848C004BD3FA /* LaunchScreen.storyboard */; };
+		BBACFFC82223848C004BD3FA /* BraveioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACFFC72223848C004BD3FA /* BraveioTests.swift */; };
+		BBB2B8E02246FBA600CF5175 /* Braveio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB2B8DF2246FBA600CF5175 /* Braveio.jpg */; };
+		BBB2B8E22246FBEC00CF5175 /* words_braveio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB2B8E12246FBEC00CF5175 /* words_braveio.jpg */; };
+		BBBFEA41224AAB7600AA28DD /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFEA40224AAB7600AA28DD /* FirstTabViewController.swift */; };
+		BBBFEA43224AAC1200AA28DD /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFEA42224AAC1200AA28DD /* SecondTabViewController.swift */; };
+		BBBFEA45224AAC4100AA28DD /* ThirdTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFEA44224AAC4100AA28DD /* ThirdTabViewController.swift */; };
+		BBBFEA47224AAC7700AA28DD /* FourthTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFEA46224AAC7700AA28DD /* FourthTabViewController.swift */; };
+		BBBFEA49224AAC9B00AA28DD /* FifthTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFEA48224AAC9B00AA28DD /* FifthTabViewController.swift */; };
+		BBBFEA4D224B04A300AA28DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFEA4C224B04A300AA28DD /* LoginViewController.swift */; };
+		BBBFEA4F224B04C400AA28DD /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFEA4E224B04C400AA28DD /* StartViewController.swift */; };
+		BBBFEA51224B07F500AA28DD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFEA50224B07F500AA28DD /* SignUpViewController.swift */; };
+		BBBFEA55224D352500AA28DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBBFEA54224D352500AA28DD /* GoogleService-Info.plist */; };
+		BBBFEA57224D5F4A00AA28DD /* 2ndSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFEA56224D5F4A00AA28DD /* 2ndSignUpViewController.swift */; };
+		BBBFEA592254299C00AA28DD /* UploadPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFEA582254299C00AA28DD /* UploadPhotoViewController.swift */; };
+		BBBFEA5B22568F5400AA28DD /* ForYouTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBFEA5A22568F5400AA28DD /* ForYouTableViewCell.swift */; };
+		F2FCF44D18CD7AC67FE81236 /* Pods_BraveioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6457F6FDD568878A3E74CAAA /* Pods_BraveioTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBACFFC42223848C004BD3FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBACFFA72223848C004BD3FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBACFFAE2223848C004BD3FA;
+			remoteInfo = Braveio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AEFB164CDC8CCE409FAD591 /* Pods-BraveioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraveioTests.debug.xcconfig"; path = "Target Support Files/Pods-BraveioTests/Pods-BraveioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		508F279DB6DCA4463F9AFCDF /* Pods-BraveioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraveioTests.release.xcconfig"; path = "Target Support Files/Pods-BraveioTests/Pods-BraveioTests.release.xcconfig"; sourceTree = "<group>"; };
+		6457F6FDD568878A3E74CAAA /* Pods_BraveioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BraveioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E73F8D64F51671842A1C007 /* Pods-Braveio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Braveio.debug.xcconfig"; path = "Target Support Files/Pods-Braveio/Pods-Braveio.debug.xcconfig"; sourceTree = "<group>"; };
+		BBACFFAF2223848C004BD3FA /* Braveio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Braveio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBACFFB22223848C004BD3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBACFFB42223848C004BD3FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBACFFB72223848C004BD3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBACFFB92223848C004BD3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBACFFBC2223848C004BD3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBACFFBE2223848C004BD3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBACFFC32223848C004BD3FA /* BraveioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraveioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBACFFC72223848C004BD3FA /* BraveioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraveioTests.swift; sourceTree = "<group>"; };
+		BBACFFC92223848C004BD3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBB2B8DF2246FBA600CF5175 /* Braveio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Braveio.jpg; sourceTree = "<group>"; };
+		BBB2B8E12246FBEC00CF5175 /* words_braveio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = words_braveio.jpg; sourceTree = "<group>"; };
+		BBBFEA40224AAB7600AA28DD /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
+		BBBFEA42224AAC1200AA28DD /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
+		BBBFEA44224AAC4100AA28DD /* ThirdTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabViewController.swift; sourceTree = "<group>"; };
+		BBBFEA46224AAC7700AA28DD /* FourthTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTabViewController.swift; sourceTree = "<group>"; };
+		BBBFEA48224AAC9B00AA28DD /* FifthTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthTabViewController.swift; sourceTree = "<group>"; };
+		BBBFEA4C224B04A300AA28DD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BBBFEA4E224B04C400AA28DD /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		BBBFEA50224B07F500AA28DD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BBBFEA54224D352500AA28DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BBBFEA56224D5F4A00AA28DD /* 2ndSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2ndSignUpViewController.swift; sourceTree = "<group>"; };
+		BBBFEA582254299C00AA28DD /* UploadPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoViewController.swift; sourceTree = "<group>"; };
+		BBBFEA5A22568F5400AA28DD /* ForYouTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouTableViewCell.swift; sourceTree = "<group>"; };
+		DF03FED376A6BFB4EF61E72E /* Pods-Braveio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Braveio.release.xcconfig"; path = "Target Support Files/Pods-Braveio/Pods-Braveio.release.xcconfig"; sourceTree = "<group>"; };
+		F117ED0E9BC0CB57A4D5EE40 /* Pods_Braveio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Braveio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBACFFAC2223848C004BD3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496BC9D99774EDE0A8BC8B83 /* Pods_Braveio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBACFFC02223848C004BD3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FCF44D18CD7AC67FE81236 /* Pods_BraveioTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68E7879E4D3142FCA2735A35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E73F8D64F51671842A1C007 /* Pods-Braveio.debug.xcconfig */,
+				DF03FED376A6BFB4EF61E72E /* Pods-Braveio.release.xcconfig */,
+				4AEFB164CDC8CCE409FAD591 /* Pods-BraveioTests.debug.xcconfig */,
+				508F279DB6DCA4463F9AFCDF /* Pods-BraveioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A1B5827B9CF276331E8C64B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F117ED0E9BC0CB57A4D5EE40 /* Pods_Braveio.framework */,
+				6457F6FDD568878A3E74CAAA /* Pods_BraveioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBACFFA62223848C004BD3FA = {
+			isa = PBXGroup;
+			children = (
+				BBACFFB12223848C004BD3FA /* Braveio */,
+				BBACFFC62223848C004BD3FA /* BraveioTests */,
+				BBACFFB02223848C004BD3FA /* Products */,
+				68E7879E4D3142FCA2735A35 /* Pods */,
+				A1B5827B9CF276331E8C64B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBACFFB02223848C004BD3FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBACFFAF2223848C004BD3FA /* Braveio.app */,
+				BBACFFC32223848C004BD3FA /* BraveioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBACFFB12223848C004BD3FA /* Braveio */ = {
+			isa = PBXGroup;
+			children = (
+				BBBFEA54224D352500AA28DD /* GoogleService-Info.plist */,
+				BBACFFB22223848C004BD3FA /* AppDelegate.swift */,
+				BBACFFB42223848C004BD3FA /* ViewController.swift */,
+				BBACFFB62223848C004BD3FA /* Main.storyboard */,
+				BBBFEA5A22568F5400AA28DD /* ForYouTableViewCell.swift */,
+				BBBFEA582254299C00AA28DD /* UploadPhotoViewController.swift */,
+				BBBFEA56224D5F4A00AA28DD /* 2ndSignUpViewController.swift */,
+				BBBFEA50224B07F500AA28DD /* SignUpViewController.swift */,
+				BBBFEA4E224B04C400AA28DD /* StartViewController.swift */,
+				BBBFEA4C224B04A300AA28DD /* LoginViewController.swift */,
+				BBBFEA48224AAC9B00AA28DD /* FifthTabViewController.swift */,
+				BBBFEA46224AAC7700AA28DD /* FourthTabViewController.swift */,
+				BBBFEA44224AAC4100AA28DD /* ThirdTabViewController.swift */,
+				BBBFEA42224AAC1200AA28DD /* SecondTabViewController.swift */,
+				BBBFEA40224AAB7600AA28DD /* FirstTabViewController.swift */,
+				BBB2B8E12246FBEC00CF5175 /* words_braveio.jpg */,
+				BBB2B8DF2246FBA600CF5175 /* Braveio.jpg */,
+				BBACFFB92223848C004BD3FA /* Assets.xcassets */,
+				BBACFFBB2223848C004BD3FA /* LaunchScreen.storyboard */,
+				BBACFFBE2223848C004BD3FA /* Info.plist */,
+			);
+			path = Braveio;
+			sourceTree = "<group>";
+		};
+		BBACFFC62223848C004BD3FA /* BraveioTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBACFFC72223848C004BD3FA /* BraveioTests.swift */,
+				BBACFFC92223848C004BD3FA /* Info.plist */,
+			);
+			path = BraveioTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBACFFAE2223848C004BD3FA /* Braveio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBACFFCC2223848C004BD3FA /* Build configuration list for PBXNativeTarget "Braveio" */;
+			buildPhases = (
+				6F59345CBECC034A785A9BB4 /* [CP] Check Pods Manifest.lock */,
+				BBACFFAB2223848C004BD3FA /* Sources */,
+				BBACFFAC2223848C004BD3FA /* Frameworks */,
+				BBACFFAD2223848C004BD3FA /* Resources */,
+				A51D09B1D293CE3DF7325DC5 /* [CP] Embed Pods Frameworks */,
+				8173A03EE340265B1FB050EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Braveio;
+			productName = Braveio;
+			productReference = BBACFFAF2223848C004BD3FA /* Braveio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBACFFC22223848C004BD3FA /* BraveioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBACFFCF2223848C004BD3FA /* Build configuration list for PBXNativeTarget "BraveioTests" */;
+			buildPhases = (
+				66971DB7CC59AA024841845D /* [CP] Check Pods Manifest.lock */,
+				BBACFFBF2223848C004BD3FA /* Sources */,
+				BBACFFC02223848C004BD3FA /* Frameworks */,
+				BBACFFC12223848C004BD3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBACFFC52223848C004BD3FA /* PBXTargetDependency */,
+			);
+			name = BraveioTests;
+			productName = BraveioTests;
+			productReference = BBACFFC32223848C004BD3FA /* BraveioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBACFFA72223848C004BD3FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Koderz;
+				TargetAttributes = {
+					BBACFFAE2223848C004BD3FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BBACFFC22223848C004BD3FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BBACFFAE2223848C004BD3FA;
+					};
+				};
+			};
+			buildConfigurationList = BBACFFAA2223848C004BD3FA /* Build configuration list for PBXProject "Braveio" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBACFFA62223848C004BD3FA;
+			productRefGroup = BBACFFB02223848C004BD3FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBACFFAE2223848C004BD3FA /* Braveio */,
+				BBACFFC22223848C004BD3FA /* BraveioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBACFFAD2223848C004BD3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBACFFBD2223848C004BD3FA /* LaunchScreen.storyboard in Resources */,
+				BBBFEA55224D352500AA28DD /* GoogleService-Info.plist in Resources */,
+				BBACFFBA2223848C004BD3FA /* Assets.xcassets in Resources */,
+				BBB2B8E02246FBA600CF5175 /* Braveio.jpg in Resources */,
+				BBACFFB82223848C004BD3FA /* Main.storyboard in Resources */,
+				BBB2B8E22246FBEC00CF5175 /* words_braveio.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBACFFC12223848C004BD3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66971DB7CC59AA024841845D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BraveioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F59345CBECC034A785A9BB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Braveio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8173A03EE340265B1FB050EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Braveio/Pods-Braveio-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Braveio/Pods-Braveio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A51D09B1D293CE3DF7325DC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Braveio/Pods-Braveio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Braveio/Pods-Braveio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBACFFAB2223848C004BD3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBFEA41224AAB7600AA28DD /* FirstTabViewController.swift in Sources */,
+				BBBFEA45224AAC4100AA28DD /* ThirdTabViewController.swift in Sources */,
+				BBBFEA47224AAC7700AA28DD /* FourthTabViewController.swift in Sources */,
+				BBACFFB52223848C004BD3FA /* ViewController.swift in Sources */,
+				BBBFEA592254299C00AA28DD /* UploadPhotoViewController.swift in Sources */,
+				BBBFEA51224B07F500AA28DD /* SignUpViewController.swift in Sources */,
+				BBBFEA4D224B04A300AA28DD /* LoginViewController.swift in Sources */,
+				BBBFEA57224D5F4A00AA28DD /* 2ndSignUpViewController.swift in Sources */,
+				BBBFEA5B22568F5400AA28DD /* ForYouTableViewCell.swift in Sources */,
+				BBBFEA4F224B04C400AA28DD /* StartViewController.swift in Sources */,
+				BBBFEA49224AAC9B00AA28DD /* FifthTabViewController.swift in Sources */,
+				BBBFEA43224AAC1200AA28DD /* SecondTabViewController.swift in Sources */,
+				BBACFFB32223848C004BD3FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBACFFBF2223848C004BD3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBACFFC82223848C004BD3FA /* BraveioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBACFFC52223848C004BD3FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBACFFAE2223848C004BD3FA /* Braveio */;
+			targetProxy = BBACFFC42223848C004BD3FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBACFFB62223848C004BD3FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBACFFB72223848C004BD3FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBACFFBB2223848C004BD3FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBACFFBC2223848C004BD3FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBACFFCA2223848C004BD3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBACFFCB2223848C004BD3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBACFFCD2223848C004BD3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E73F8D64F51671842A1C007 /* Pods-Braveio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Braveio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nicole.Braveio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBACFFCE2223848C004BD3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF03FED376A6BFB4EF61E72E /* Pods-Braveio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Braveio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nicole.Braveio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBACFFD02223848C004BD3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEFB164CDC8CCE409FAD591 /* Pods-BraveioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BraveioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Koderz.BraveioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Braveio.app/Braveio";
+			};
+			name = Debug;
+		};
+		BBACFFD12223848C004BD3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508F279DB6DCA4463F9AFCDF /* Pods-BraveioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BraveioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Koderz.BraveioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Braveio.app/Braveio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBACFFAA2223848C004BD3FA /* Build configuration list for PBXProject "Braveio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBACFFCA2223848C004BD3FA /* Debug */,
+				BBACFFCB2223848C004BD3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBACFFCC2223848C004BD3FA /* Build configuration list for PBXNativeTarget "Braveio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBACFFCD2223848C004BD3FA /* Debug */,
+				BBACFFCE2223848C004BD3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBACFFCF2223848C004BD3FA /* Build configuration list for PBXNativeTarget "BraveioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBACFFD02223848C004BD3FA /* Debug */,
+				BBACFFD12223848C004BD3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBACFFA72223848C004BD3FA /* Project object */;
+}
