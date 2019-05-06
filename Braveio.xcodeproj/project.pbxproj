@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		496BC9D99774EDE0A8BC8B83 /* Pods_Braveio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117ED0E9BC0CB57A4D5EE40 /* Pods_Braveio.framework */; };
+		BB1FB00A226E9255001FFD60 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = BB1FB009226E9255001FFD60 /* blank.png */; };
+		BB1FB00C226E9264001FFD60 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = BB1FB00B226E9264001FFD60 /* checked.png */; };
+		BB9B9666226EDEC300C2DE85 /* rainbow.png in Resources */ = {isa = PBXBuildFile; fileRef = BB9B9665226EDEC300C2DE85 /* rainbow.png */; };
+		BB9B9668226FBDA100C2DE85 /* profile1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB9B9667226FBDA100C2DE85 /* profile1.png */; };
+		BB9B966A226FBDC100C2DE85 /* profile2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB9B9669226FBDC100C2DE85 /* profile2.png */; };
+		BB9B966C226FBDCD00C2DE85 /* profile3.png in Resources */ = {isa = PBXBuildFile; fileRef = BB9B966B226FBDCD00C2DE85 /* profile3.png */; };
 		BBACFFB32223848C004BD3FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACFFB22223848C004BD3FA /* AppDelegate.swift */; };
 		BBACFFB52223848C004BD3FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBACFFB42223848C004BD3FA /* ViewController.swift */; };
 		BBACFFB82223848C004BD3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBACFFB62223848C004BD3FA /* Main.storyboard */; };
@@ -46,6 +52,12 @@
 		508F279DB6DCA4463F9AFCDF /* Pods-BraveioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraveioTests.release.xcconfig"; path = "Target Support Files/Pods-BraveioTests/Pods-BraveioTests.release.xcconfig"; sourceTree = "<group>"; };
 		6457F6FDD568878A3E74CAAA /* Pods_BraveioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BraveioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E73F8D64F51671842A1C007 /* Pods-Braveio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Braveio.debug.xcconfig"; path = "Target Support Files/Pods-Braveio/Pods-Braveio.debug.xcconfig"; sourceTree = "<group>"; };
+		BB1FB009226E9255001FFD60 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+		BB1FB00B226E9264001FFD60 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		BB9B9665226EDEC300C2DE85 /* rainbow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainbow.png; sourceTree = "<group>"; };
+		BB9B9667226FBDA100C2DE85 /* profile1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile1.png; sourceTree = "<group>"; };
+		BB9B9669226FBDC100C2DE85 /* profile2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile2.png; sourceTree = "<group>"; };
+		BB9B966B226FBDCD00C2DE85 /* profile3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile3.png; sourceTree = "<group>"; };
 		BBACFFAF2223848C004BD3FA /* Braveio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Braveio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBACFFB22223848C004BD3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBACFFB42223848C004BD3FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +149,12 @@
 		BBACFFB12223848C004BD3FA /* Braveio */ = {
 			isa = PBXGroup;
 			children = (
+				BB9B9667226FBDA100C2DE85 /* profile1.png */,
+				BB9B9669226FBDC100C2DE85 /* profile2.png */,
+				BB9B966B226FBDCD00C2DE85 /* profile3.png */,
+				BB9B9665226EDEC300C2DE85 /* rainbow.png */,
+				BB1FB00B226E9264001FFD60 /* checked.png */,
+				BB1FB009226E9255001FFD60 /* blank.png */,
 				BBBFEA54224D352500AA28DD /* GoogleService-Info.plist */,
 				BBACFFB22223848C004BD3FA /* AppDelegate.swift */,
 				BBACFFB42223848C004BD3FA /* ViewController.swift */,
@@ -257,11 +275,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9B9668226FBDA100C2DE85 /* profile1.png in Resources */,
 				BBACFFBD2223848C004BD3FA /* LaunchScreen.storyboard in Resources */,
+				BB1FB00C226E9264001FFD60 /* checked.png in Resources */,
 				BBBFEA55224D352500AA28DD /* GoogleService-Info.plist in Resources */,
 				BBACFFBA2223848C004BD3FA /* Assets.xcassets in Resources */,
+				BB1FB00A226E9255001FFD60 /* blank.png in Resources */,
+				BB9B966A226FBDC100C2DE85 /* profile2.png in Resources */,
 				BBB2B8E02246FBA600CF5175 /* Braveio.jpg in Resources */,
 				BBACFFB82223848C004BD3FA /* Main.storyboard in Resources */,
+				BB9B9666226EDEC300C2DE85 /* rainbow.png in Resources */,
+				BB9B966C226FBDCD00C2DE85 /* profile3.png in Resources */,
 				BBB2B8E22246FBEC00CF5175 /* words_braveio.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,16 +361,20 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Braveio/Pods-Braveio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

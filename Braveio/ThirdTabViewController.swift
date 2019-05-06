@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import FirebaseStorage
+import Firebase
 
 class ThirdTabViewController: UIViewController,
     UIImagePickerControllerDelegate,
 UINavigationControllerDelegate {
 
     @IBOutlet weak var imagePicked: UIImageView!
+    // Firebase services
+    var database: Database!
+    var storage: Storage!
+
+    // Initialize an array for your pictures
+    var picArray = [UIImage]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,9 +42,49 @@ UINavigationControllerDelegate {
         let image = info[UIImagePickerControllerOriginalImage] as? UIImage
         dismiss(animated:true, completion: nil)
         imagePicked.image = image
+        
+        /*
+        let uid = Auth.auth().currentUser?.uid
+        if let uid = uid {
+            let imageData = UIImageJPEGRepresentation(image!, 0.5)
+            if let imageData = imageData {
+                let profileImgReference = Storage.storage().reference().child("profile_image_urls").child("\(uid).png")
+                let uploadTask = profileImgReference.putData(imageData, metadata: nil) { (metadata, error) in
+                    if let error = error {
+                        print(error.localizedDescription)
+                    } else {
+                        let downloadURL = metadata?.downloadURL()?.absoluteString ?? ""
+                        // Here you get the download url of the profile picture.
+                    }
+                }
+                uploadTask.observe(.progress, handler: { (snapshot) in
+                    print(snapshot.progress?.fractionCompleted ?? "")
+                    // Here you can get the progress of the upload process.
+                })
+            } else {return}
+        } else {return}
     }
-    
+         */
+        /*
+        // Initialize Database, Auth, Storage
+        let database = Database.database()
+        let storage = Storage.storage()
+        
+        let fileData = NSData() // get data...
+        let uid = Auth.auth().currentUser?.uid
+        let storageRef = storage.reference().child("users").child("\(uid).png")
+        storageRef.putData(fileData as Data).observe(.success) { (snapshot) in
+            // When the image has successfully uploaded, we get it's download URL
+            let downloadURL = snapshot.metadata?.downloadURL()?.absoluteString
+            // Write the download URL to the Realtime Database
+            let dbRef = database.reference().child("users").child("\(uid).png")
+            dbRef.setValue(downloadURL)
+        }
+ */
+    }
+ 
     func saveImage(imageName: String){
+        
         //create an instance of the FileManager
         let fileManager = FileManager.default
         //get the image path
@@ -46,6 +95,8 @@ UINavigationControllerDelegate {
         let data = UIImagePNGRepresentation(image)
         //store it in the document directory
         fileManager.createFile(atPath: imagePath as String, contents: data, attributes: nil)
+
+        
     }
     
     @IBAction func openPhotoLibraryButton(sender: AnyObject) {

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FirebaseDatabase
+import Firebase
 
 class _ndSignUpViewController: UIViewController {
 
@@ -40,8 +42,33 @@ class _ndSignUpViewController: UIViewController {
 
     @IBAction func onButtonTap()
     {
-        let vc = FifthTabViewController(nibName: "FifthTabViewController", bundle: nil)
-        vc.text = firstName.text!
+   //     let vc = FifthTabViewController(nibName: "FifthTabViewController", bundle: nil)
+   //     vc.text = firstName.text!
+        
+        //instance of FIRDatabaseReferenc
+        var ref: DatabaseReference!
+        ref = Database.database().reference()
+        let key = Auth.auth().currentUser!.uid
+        
+        //let childUpdates = ["/posts/\(key)": post,
+                         //   "/users-posts/\(firstName)/\(key)/": post]
+ //       let id = UUID().uuidString
+ /*       ref?.child("post").child(id).setValue(post,
+                            withCompletionBlock: { (error, snapshot) in
+                                ref?.child("users").child(key).child("post").child(post[firstName] as! String).updateChildValues([id: post[lastName]])
+*/
+        let post = ["firstName": firstName.text! as NSString,
+                    "lastName": lastName.text! as NSString,
+                    "age": age.text! as NSString,
+                    "grade": grade.text! as NSString,
+                    "city": city.text! as NSString,
+                    "state": state.text! as NSString,
+                    "zipcode": zipcode.text! as NSString] as
+                        [NSString : Any]
+        let childUpdates = ["/posts/\(key)": post]
+        ref.updateChildValues(childUpdates)
+//        })
+        
         
         //navigationController?.pushViewController(vc, animated: true)
     }

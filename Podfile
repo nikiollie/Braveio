@@ -9,6 +9,9 @@ target 'Braveio' do
   pod 'GoogleSignIn'
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+  pod 'DLRadioButton', '~> 1.4'
 
   target 'BraveioTests' do
     inherit! :search_paths
